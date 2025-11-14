@@ -6,7 +6,8 @@
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "ship": "wrangler pages deploy dist --project-name docker-tutorial --branch main"
   },
   "dependencies": {
     "@astrojs/starlight": "^0.28.4",
