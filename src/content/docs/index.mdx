@@ -1,0 +1,119 @@
+---
+title: 欢迎来到 Docker 中文教程
+description: 从零开始，全面深入学习 Docker 容器技术
+template: splash
+hero:
+  tagline: 由浅入深，全面掌握 Docker 容器技术。从基础概念到生产实践，助你成为 Docker 专家。
+  image:
+    file: ../../assets/docker-logo.svg
+  actions:
+    - text: 开始学习
+      link: /getting-started/what-is-docker/
+      icon: right-arrow
+      variant: primary
+    - text: 快速开始
+      link: /getting-started/quickstart/
+      icon: rocket
+      variant: secondary
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components';
+
+## 为什么选择这个教程？
+
+<CardGrid>
+  <Card title="🎯 结构清晰" icon="pencil">
+    从基础到进阶，循序渐进的学习路径，每个概念都有详细解释和实例。
+  </Card>
+  <Card title="💡 实战导向" icon="rocket">
+    不仅讲解理论，更注重实际操作。每个章节都包含可运行的示例代码。
+  </Card>
+  <Card title="📚 全面深入" icon="open-book">
+    覆盖 Docker 所有核心概念，从容器基础到生产部署，应有尽有。
+  </Card>
+  <Card title="✨ 最佳实践" icon="star">
+    总结行业最佳实践，帮助你避免常见陷阱，写出高质量的 Dockerfile。
+  </Card>
+</CardGrid>
+
+## 学习路径
+
+### 🚀 新手入门
+如果你是 Docker 新手，建议按以下顺序学习：
+
+1. **开始** - 了解 Docker 是什么，为什么要使用它
+2. **基础概念** - 掌握镜像、容器等核心概念
+3. **实战操作** - 动手构建第一个 Docker 应用
+4. **最佳实践** - 学习如何写出优雅的 Dockerfile
+
+### 🔥 进阶提升
+已经有一定基础？直接跳到高级内容：
+
+- **进阶技巧** - 多阶段构建、镜像优化等
+- **实战项目** - 完整的项目容器化实践
+- **生产部署** - 将应用部署到生产环境
+
+## 主要内容
+
+### 开始
+- 什么是 Docker
+- 安装配置
+- 快速开始
+
+### 基础概念
+- 镜像与容器
+- Docker 命令详解
+- Dockerfile 编写
+- 镜像仓库使用
+
+### 实战操作
+- 构建第一个镜像
+- 容器网络配置
+- 数据卷管理
+- Docker Compose
+
+### 进阶技巧
+- 多阶段构建
+- 镜像体积优化
+- 健康检查
+- 资源限制
+
+### 最佳实践
+- 安全最佳实践
+- 性能优化
+- 开发环境配置
+- 生产环境部署
+
+### 实战项目
+- Node.js 应用
+- Python 应用
+- 全栈应用
+- 微服务架构
+
+## 快速开始
+
+立即运行你的第一个 Docker 容器：
+
+```bash
+# 拉取并运行 hello-world 镜像
+docker run hello-world
+```
+
+这个简单的命令会：
+1. 检查本地是否有 hello-world 镜像
+2. 如果没有，从 Docker Hub 下载
+3. 创建并启动一个新容器
+4. 在容器中执行程序并输出消息
+5. 容器执行完毕后自动停止
+
+准备好了吗？让我们[开始学习](/getting-started/what-is-docker/)吧！
+
+## 需要帮助？
+
+- 查看[常见问题](/best-practices/troubleshooting/)
+- 浏览[命令速查表](/reference/cheatsheet/)
+- 参考[官方文档](https://docs.docker.com/)
+
+---
+
+<small>💡 提示：本教程持续更新中，建议收藏以便随时查阅。</small>
