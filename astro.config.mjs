@@ -10,7 +10,7 @@ export default defineConfig({
       logo: {
         src: './src/assets/docker-logo.svg',
       },
-      favicon: './src/assets/docker-logo.svg',
+      favicon: '/docker-logo.svg',
       defaultLocale: 'root',
       locales: {
         root: {
