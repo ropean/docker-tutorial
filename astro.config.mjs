@@ -10,6 +10,7 @@ export default defineConfig({
       logo: {
         src: './src/assets/docker-logo.svg',
       },
+      favicon: './src/assets/docker-logo.svg',
       defaultLocale: 'root',
       locales: {
         root: {
@@ -25,7 +26,10 @@ export default defineConfig({
           label: '开始',
           items: [
             { label: '欢迎', link: '/' },
-            { label: '什么是 Docker', link: '/getting-started/what-is-docker/' },
+            {
+              label: '什么是 Docker',
+              link: '/getting-started/what-is-docker/',
+            },
             { label: '安装 Docker', link: '/getting-started/installation/' },
             { label: '快速开始', link: '/getting-started/quickstart/' },
           ],
@@ -84,14 +88,15 @@ export default defineConfig({
           items: [
             { label: '命令速查表', link: '/reference/cheatsheet/' },
             { label: 'Dockerfile 指令', link: '/reference/dockerfile/' },
-            { label: 'docker-compose.yml 配置', link: '/reference/compose-file/' },
+            {
+              label: 'docker-compose.yml 配置',
+              link: '/reference/compose-file/',
+            },
             { label: '常用镜像推荐', link: '/reference/popular-images/' },
           ],
         },
       ],
-      customCss: [
-        './src/styles/custom.css',
-      ],
+      customCss: ['./src/styles/custom.css'],
       components: {
         // 使用自定义组件覆盖默认组件
       },

@@ -20,3 +20,6 @@ pnpm-debug.log*
 
 # jetbrains setting folders
 .idea/
+
+# git rm -r --cached .astro
+.astro
